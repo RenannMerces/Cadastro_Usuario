@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;                
+}
+
+span{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: green;
+}
+
+.conteudo-principal{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.form-conteudo{
+    margin-top: 70px;
+    background-color: #dcdbdb;
+    width: 400px;
+    height: 530px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.campo-form{
+    display: flex;
+    margin-bottom: 30px;
+    display: grid;
+}
+
+.campo-form label{
+    font-size: 20px;
+}
+
+.campo-form input {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.campo-form input:focus {
+    border-color: #444a4f;
+}
+
+.campo-form input:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.form-conteudo h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*! BTN */
+
+.btn{
+   width: 100%;
+}
+
+.btn button{
+    width: 197px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-enviar{
+    background-color: rgb(133, 205, 133);
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover{
+    background-color: rgb(105, 205, 105);
+}
+
+.btn-cancelar{
+    background-color: rgb(227, 138, 138);
+    transition: background-color 0.3s ease;
+}
+
+.btn-cancelar:hover{
+    background-color: rgb(222, 72, 72);
+}

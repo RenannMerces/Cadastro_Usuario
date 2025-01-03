@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="conteudo-principal">
+<section>
+ 
+    <form action="" id="form" class="form-conteudo" method="post">
+        <div>
+            <h1>Cadastro de Usuários</h1>
+        </div>
+        <div class="campo-form">
+            <label for="">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome aqui...">
+        </div>
+        <div class="campo-form">
+            <label for="">Telefone:</label>
+            <input type="number" id="numero" placeholder="Digite seu telefone aqui...">
+        </div>
+        <div class="campo-form">
+            <label for="">Email:</label>
+            <input type="text" id="email" placeholder="Digite seu email aqui...">
+        </div>
+        <div class="campo-form">
+            <label for="">Observação:</label>
+            <input type="text" id="obs" placeholder="Digite sua mensagem aqui.">
+        </div>
+
+        <div class="btn">
+            <button class="btn-enviar" type="button" id="enviar" onclick="enviarFormulario(event)">Enviar</button>
+            <button class="btn-cancelar" type="reset">LIMPAR</button>
+        </div>
+        <span id="mensagem"></span>
+    </form>
+</section>
+    
+<script src="/index.js"></script>
+</body>
+</html>
